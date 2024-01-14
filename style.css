@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: #6c6c6c;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999;
+}
+header.sticky {
+    background-color: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+header .logo {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header .navigation li {
+  list-style: none;
+  margin-right: 20px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 120px;
+  border: 1px solid tomato;
+}
+.banner-content {
+  width: 500px;
+}
+.banner-content h1 {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+.banner-content p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  /*letter-spacing: 2px;
+  */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.banner-content .btn:hover {
+  letter-spacing: 2px;
+}
+.banner-image {
+  background: url("/images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.8rem;
+  margin-bottom: 100px;
+}
+.title {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.collection .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
